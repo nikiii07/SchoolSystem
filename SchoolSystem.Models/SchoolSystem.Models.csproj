@@ -93,6 +93,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BindingModels\AddClassBM.cs" />
+    <Compile Include="BindingModels\AddSubjectBM.cs" />
+    <Compile Include="BindingModels\AddTeacherBM.cs" />
+    <Compile Include="BindingModels\EditSubjectBM.cs" />
+    <Compile Include="BindingModels\EditTeacherBM.cs" />
     <Compile Include="Contracts\IPerson.cs" />
     <Compile Include="Contracts\IThumbnail.cs" />
     <Compile Include="Contracts\IVisible.cs" />
@@ -119,10 +124,16 @@
     <Compile Include="ViewModels\Account\SetPasswordViewModel.cs" />
     <Compile Include="ViewModels\Account\VerifyCodeViewModel.cs" />
     <Compile Include="ViewModels\Account\VerifyPhoneNumberViewModel.cs" />
+    <Compile Include="ViewModels\ClassesManagement\AddClassVM.cs" />
+    <Compile Include="ViewModels\ClassesManagement\ClassesManagementVM.cs" />
+    <Compile Include="ViewModels\SubjectsManagement\AddSubjectVM.cs" />
+    <Compile Include="ViewModels\SubjectsManagement\EditSubjectVM.cs" />
+    <Compile Include="ViewModels\SubjectsManagement\SubjectsManagementVM.cs" />
+    <Compile Include="ViewModels\TeachersManagement\AddTeacherVM.cs" />
+    <Compile Include="ViewModels\TeachersManagement\EditTeacherVM.cs" />
+    <Compile Include="ViewModels\TeachersManagement\TeacherManagementVM.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BindingModels\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />

@@ -25,5 +25,10 @@
         public virtual ICollection<Teacher> Teachers { get; set; }
 
         public virtual ICollection<Student> Students { get; set; }
+
+        public override string ToString()
+        {
+            return this.Name;
+        }
     }
 }
